@@ -9,7 +9,7 @@ body {
 .header-cont {
   height: 100%;
   background-color: #f5a962;
-  padding: 2%;
+
 }
 
 /*.headerline {
@@ -97,9 +97,24 @@ table:hover {
 
 .lookupnames {
   background-color: #dddddd;
+  margin: 2%;
 }
 
 .lookuptable {
   margin-left: auto;
   margin-right: auto;
+}
+
+
+.resultstable {
+  padding-top: 10px;
+}
+
+.startend {
+  padding: 10px;
+
+}
+
+.uploaddata {
+  padding: 10px;
 }

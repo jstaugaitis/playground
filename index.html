@@ -4,9 +4,11 @@
 <head>
   <meta charset="utf-8">
   <title>Political Review</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="shortcut icon" href="images/Star_icon-icons.com_75206.ico">
 </head>
+
 
 
 <body>
@@ -15,9 +17,18 @@
 
     <div class="headerline">
 
-        <h1>Polical Review</h1>
-        <h2>Contribution Coverage</h2>
+      <h1>Polical Review</h1>
+      <h2>Contribution Coverage</h2>
     </div>
+  </div>
+
+  <div class="Logindetails">
+    <label>Username</label>
+    <input type="text" name="" value="">
+    <label>Password</label>
+    <input type="password" name="" value="">
+    <input class="btn btn-primary btn-md" type="submit" name="" value="Login"> <br> <br>
+
   </div>
 
 
@@ -26,7 +37,10 @@
     <div class="skill-row">
       <img class="federalimg" src="https://www.fec.gov/static/img/seal.svg" alt="flagimage">
 
-      <h3>Federal Data</h3>
+      <a href="https://www.fec.gov/data/receipts/individual-contributions/">
+        <h3>Federal Data</h3>
+      </a></li>
+
       <p>Daily download of federal data right from the FEC site. You will get the most up to data info.</p>
 
     </div>
@@ -54,159 +68,80 @@
 
 
 
-
-  <h3>Unordered List</h3>
-
-  <ul>
-    <li><a href="https://www.fec.gov/data/receipts/individual-contributions/">Federal Site</a></li>
-    <li>State</li>
-  </ul>
-
-  <hr>
-
-  <h3>Ordered List</h3>
-
-  <ol>
-    <li><a href="federal.html">Federal Internal Page</a></li>
-    <li>State</li>
-  </ol>
-
-  <hr>
-
-  <h3>Tables Uploads</h3>
-
-  <table border="5px">
-    <thead class="tablehead">
-      <tr>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>State</th>
-        <th>Zipcode</th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <tr class="tablerow">
-        <td>John</td>
-        <td>Smith</td>
-        <td>CT</td>
-        <td>00000</td>
-      </tr>
-    </tbody>
-
-    <tfoot>
-
-    </tfoot>
-
-  </table>
-
-  <hr>
-
-  <div class="lookupnames">
-
-    <input type="file" name="" value="">
-    <input class="btn" type="submit" name="" value="Load Data">
+    <div class="">
 
 
-    <table class="lookuptable" cellspacing="20px">
-      <thead class="tablehead">
-        <tr>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>State</th>
-          <th>Zipcode</th>
-        </tr>
-      </thead>
 
-      <tbody>
-        <tr class="tablerow">
-          <td>John</td>
-          <td>Smith</td>
-          <td>CT</td>
-          <td>00000</td>
-        </tr>
-      </tbody>
-
-      <tfoot>
-
-      </tfoot>
-
-    </table>
-
-  </div>
-  <hr>
-
-  <h3>Nested Table HTML</h3>
-
-  <table>
-    <tr>
-      <td>
-        <table>
-          <tr>
-            <td>Accuracy</td>
-            <td>⭐⭐⭐⭐⭐🌟</td>
-          </tr>
-          <tr>
-            <td>Timing</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>Accuracy</td>
-            <td>⭐⭐⭐⭐⭐🌟</td>
-          </tr>
-          <tr>
-            <td>Timing</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+      <h3>Upload Names</h3>
 
 
-  <hr>
+
+      <br>
+      <div class="lookupnames">
 
 
-  <h3>DATA Table</h3>
-  <table cellspacing=10px>
-    <tr>
-      <td>Accuracy</td>
-      <td>⭐⭐⭐⭐⭐🌟</td>
-    </tr>
-    <tr>
-      <td>Timing</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-  </table>
 
-  <br>
-  <hr>
-
-  <h3>FORMS</h3>
-
-  <form class="" action="index.html" method="post">
-    <label>Username</label>
-    <input type="text" name="" value="">
-    <label>Password</label>
-    <input type="password" name="" value=""> <br>
-    <input class="btn" type="submit" name="" value="Login"> <br> <br>
-    <label>Favorite Color</label>
-    <input type="color" name="" value=""><br> <br>
-    <label>Start Date</label>
-    <input type="date" name="" value="">
-    <label>End Date</label>
-    <input type="date" name="" value=""> <br> <br>
-    <label>UPLOAD FILE</label>
-    <input type="file" name="" value=""> <br> <br>
-    <input class="btn" type="submit" name="" value="LOAD DATA">
-
-  </form>
+<div class="startend">
+  <label>Start Date</label>
+  <input type="date" name="" value="">
+  <label>End Date</label>
+  <input type="date" name="" value="">
 
 </div>
+
+<div class="uploaddata">
+  <input type="file" name="" value="">
+  <input class="btn btn-primary btn-sm" type="submit" name="" value="Load Data">
+
+</div>
+
+
+
+
+
+
+        <div class="resultstable">
+          <table class="lookuptable" cellspacing="20px">
+            <thead class="tablehead">
+              <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>State</th>
+                <th>Zipcode</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr class="tablerow">
+                <td>John</td>
+                <td>Smith</td>
+                <td>CT</td>
+                <td>00000</td>
+              </tr>
+            </tbody>
+
+            <tfoot>
+
+            </tfoot>
+
+          </table>
+        </div>
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
 
 </body>
 
