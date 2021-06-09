@@ -4,15 +4,33 @@
 <head>
   <meta charset="utf-8">
   <title>Political Review</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="images/Star_icon-icons.com_75206.ico">
 </head>
+
 
 <body>
 
-  <h1>Polical Review</h1>
+  <div class="header-cont">
 
-  <h2>Types of contributions</h2>
+    <div class="headerline">
+    <!  <img class="imageheader" src="https://image.flaticon.com/icons/png/512/927/927262.png" height=150px width=150px>  
+      <h1>Polical Review</h1>
+      <h2>Contribution Coverage</h2>
+    </div>
+  </div>
 
-  <img src="https://www.fec.gov/static/img/seal.svg" alt="flagimage">
+
+  <div class="coverage">
+  <img id="federalimg" src="https://www.fec.gov/static/img/seal.svg" alt="flagimage">
+  <p>Daily Federal Coverage</p>
+
+    <br>
+    <img id="ctflag" src="https://statesymbolsusa.org/sites/statesymbolsusa.org/files/styles/large/public/primary-images/flag-of-connecticutstateflag.jpg?itok=l22U5OIq" alt="ctflag">
+  </div>
+
+
+
 
 
   <h3>Unordered List</h3>
@@ -60,40 +78,48 @@
 
   </table>
 
-<hr>
+  <hr>
 
-  <table cellspacing="20px">
-    <thead class="tablehead">
-      <tr>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>State</th>
-        <th>Zipcode</th>
-      </tr>
-    </thead>
+  <div class="lookupnames">
 
-    <tbody>
-      <tr class="tablerow">
-        <td>John</td>
-        <td>Smith</td>
-        <td>CT</td>
-        <td>00000</td>
-      </tr>
-    </tbody>
+    <input type="file" name="" value="">
+    <input class="btn" type="submit" name="" value="Load Data">
 
-    <tfoot>
 
-    </tfoot>
+    <table class="lookuptable" cellspacing="20px">
+      <thead class="tablehead">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>State</th>
+          <th>Zipcode</th>
+        </tr>
+      </thead>
 
-  </table>
+      <tbody>
+        <tr class="tablerow">
+          <td>John</td>
+          <td>Smith</td>
+          <td>CT</td>
+          <td>00000</td>
+        </tr>
+      </tbody>
 
-<hr>
+      <tfoot>
 
-<h3>Nested Table HTML</h3>
+      </tfoot>
+
+    </table>
+
+  </div>
+  <hr>
+
+  <h3>Nested Table HTML</h3>
 
   <table>
     <tr>
-      <td>  <table>
+      <td>
+        <table>
           <tr>
             <td>Accuracy</td>
             <td>⭐⭐⭐⭐⭐🌟</td>
@@ -102,8 +128,10 @@
             <td>Timing</td>
             <td>⭐⭐⭐⭐⭐</td>
           </tr>
-        </table></td>
-      <td>  <table>
+        </table>
+      </td>
+      <td>
+        <table>
           <tr>
             <td>Accuracy</td>
             <td>⭐⭐⭐⭐⭐🌟</td>
@@ -112,15 +140,16 @@
             <td>Timing</td>
             <td>⭐⭐⭐⭐⭐</td>
           </tr>
-        </table></td>
+        </table>
+      </td>
     </tr>
   </table>
 
 
-<hr>
+  <hr>
 
 
-<h3>DATA Table</h3>
+  <h3>DATA Table</h3>
   <table cellspacing=10px>
     <tr>
       <td>Accuracy</td>
@@ -132,28 +161,28 @@
     </tr>
   </table>
 
-<br>
-<hr>
+  <br>
+  <hr>
 
-<h3>FORMS</h3>
+  <h3>FORMS</h3>
 
-<form class="" action="index.html" method="post">
-  <label>Username</label>
-  <input type="text" name="" value="">
-  <label>Password</label>
-  <input type="password" name="" value=""> <br>
-  <input type="submit" name="" value="Login"> <br> <br>
-  <label>Favorite Color</label>
-  <input type="color" name="" value=""><br> <br>
-  <label>Start Date</label>
-  <input type="date" name="" value="">
-  <label>End Date</label>
-  <input type="date" name="" value=""> <br> <br>
-  <label>UPLOAD FILE</label>
-  <input type="file" name="" value=""> <br> <br>
-  <input type="submit" name="" value="LOAD DATA">
+  <form class="" action="index.html" method="post">
+    <label>Username</label>
+    <input type="text" name="" value="">
+    <label>Password</label>
+    <input type="password" name="" value=""> <br>
+    <input class="btn" type="submit" name="" value="Login"> <br> <br>
+    <label>Favorite Color</label>
+    <input type="color" name="" value=""><br> <br>
+    <label>Start Date</label>
+    <input type="date" name="" value="">
+    <label>End Date</label>
+    <input type="date" name="" value=""> <br> <br>
+    <label>UPLOAD FILE</label>
+    <input type="file" name="" value=""> <br> <br>
+    <input class="btn" type="submit" name="" value="LOAD DATA">
 
-</form>
+  </form>
 
 
 </body>
