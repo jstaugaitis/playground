@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #dddddd;
   font-family: "Arial Rounded MT Bold", Arial, sans-serif;
   color: #45000;
   margin: 0;
@@ -8,6 +8,8 @@ body {
 
 .header-cont {
   height: 100%;
+  background-color: #f5a962;
+  padding: 2%;
 }
 
 /*.headerline {
@@ -42,7 +44,7 @@ body {
 }
 
 h1 {
-  color: #126e82;
+  color: #dddddd;
   text-align: center;
   font-size: 500%;
   line-height: 100px;
@@ -52,12 +54,12 @@ h1 {
 }
 
 h2 {
-  color: #51c4d3;
+  color: #dddddd;
   font-weight: bold;
 }
 
 h3 {
-  color: #11999E;
+  color: #3c8dad;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -87,14 +89,14 @@ table:hover {
 }
 
 .coverage {
-  background-color: #d8e3e7;
+  background-color: #dddddd;
   margin: 100px 0;
   height: 500px;
   position: relative;
 }
 
 .lookupnames {
-  background-color: #d8e3e7;
+  background-color: #dddddd;
 }
 
 .lookuptable {
