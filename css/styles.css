@@ -48,19 +48,14 @@ table {
   margin-right: auto;
 }
 
-
-
-.header-cont {
-  height: 100%;
-  background-color: #f5a962;
+.mainheader {
+  /*background-color: #3c8dad;*/
+  background-image: url('https://image.freepik.com/free-vector/abstract-blue-geometric-banner-background_1035-18973.jpg');
 
 }
 
-/*.headerline {
-  left: 20px;
-  position: center;
-  margin: auto;
-} */
+
+
 .skill-row {
   width: 60%;
   margin: 100px auto 100px auto;
@@ -80,14 +75,11 @@ table {
   top: 40px;
 }
 */
-
 .ctflag {
   width: 25%;
   float: left;
   margin-right: 30px;
 }
-
-
 
 .coverage {
   background-color: #dddddd;
@@ -105,14 +97,12 @@ table {
   margin-right: auto;
 }
 
-
 .resultstable {
   padding-top: 10px;
 }
 
 .startend {
   padding: 10px;
-
 }
 
 .uploaddata {
